@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { BrandTicker } from './components/BrandTicker';
+import { AiCampaignGenerator } from './components/AiCampaignGenerator';
 import { CaseStudies } from './components/InfluencerDiscovery';
 import { LetsTalk } from './components/LetsTalk';
 import { DashboardStats } from './components/DashboardStats';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <BrandTicker />
+        <AiCampaignGenerator />
         <CaseStudies />
         <LetsTalk />
         <DashboardStats />
