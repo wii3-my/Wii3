@@ -24,7 +24,7 @@ export const BrandTicker: React.FC = () => {
       {/* Right Fade Gradient */}
       <div className="absolute right-0 top-0 h-full w-16 md:w-32 bg-gradient-to-l from-wii3-dark to-transparent z-10"></div>
 
-      <div className="inline-flex flex-nowrap overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
+      <div className="inline-flex flex-nowrap overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
         <ul className="flex items-center justify-center md:justify-start [&_li]:mx-6 md:[&_li]:mx-16 [&_li]:max-w-none animate-infinite-scroll">
           {brands.map((brand, index) => (
             <li key={index} className="flex items-center justify-center">
